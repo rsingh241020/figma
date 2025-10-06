@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="./images/Company_logo.svg.svg" alt="Company logo" class="logo">
+            <div class="company-info">
+                <span class="company-name">COMPANY</span>
+                <span class="company-tagline">business tagline</span>
+            </div>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+        <div class="navbar-right">
+            <a href="#" class="quote-btn">Get A Quote</a>
+        </div>
+        <button class="navbar-toggle" id="navbarToggle" aria-label="Open menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <img src="./images/Company_logo.svg.svg" alt="Company logo" class="logo">
+            <button class="close-btn" id="closeMenu" aria-label="Close menu">&times;</button>
+        </div>
+        <ul class="mobile-menu-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+        <a href="#" class="mobile-quote-btn">CONTACT US</a>
+    </div>
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-container">
+            <div class="hero-text">
+                <h1>
+                    Your Resume<br>
+                    <span class="highlight">Deserves A Yes</span> Let’s<br>
+                    Make It Happen
+                </h1>
+                <p class="hero-desc">
+                    If Your Resume Isn’t Getting Responses, It’s Time For An Upgrade.<br>
+                    Get An ATS-Optimized Resume Crafted By HR Experts to Help You<br>
+                    Land More Interviews. Our Resumes Are Designed To Get Your Foot<br>
+                    In The Door And Place Your Name At The Top Of The Shortlist.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="hero-btn primary">RESUME PACKAGES</a>
+                    <a href="#" class="hero-btn secondary">CONTACT US</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="./images/Student.svg.svg" alt="Student holding books" class="student-img">
+                    <div class="hero-info-cards">
+                        <div class="rating-card">
+                            <span class="rating-value">4.9</span>
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-label">Instructor Rating</span>
+                        </div>
+                        <div class="resume-card">
+                            <img src="./images/cap.svg" alt="Resume Icon" class="resume-icon">
+                            <span class="resume-count">260+</span>
+                            <span class="resume-label">Online Resume Created</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
